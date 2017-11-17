@@ -1,7 +1,7 @@
 {
   "name": "dpt_compiler",
-  "version": "1.0.0",
-  "description": "my first test library",
+  "version": "1.0.1",
+  "description": "Project to setup new projects",
   "main": "./bin/compile.js",
   "directories": {
     "lib": "lib"
