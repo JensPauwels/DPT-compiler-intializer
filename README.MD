@@ -6,7 +6,7 @@ This tool allows you to generate a whole new project scratch in only a couple of
 How does it work?
 -----------------
 ```
-install: npm install -g dpt_compiler .
+install: npm install -g dpt_compiler
 ```
 
 dpt-generate
