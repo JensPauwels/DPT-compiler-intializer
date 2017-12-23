@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dpt-generate": "bin/compile.js"
+    "dpt-generate": "bin/compile.js",
+    "dpt-install": "bin/install.js"
   },
   "author": "Jens Pauwels",
   "license": "ISC",

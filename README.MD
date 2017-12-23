@@ -9,8 +9,14 @@ Install
 install: npm install -g dpt_compiler
 ```
 
-How does it work?
+
+dpt-install
 -----------------
+
+dpt-install is used to install the compiler on your computer
+
+1) compilerpath
+
 
 dpt-generate
 -----------------
@@ -33,4 +39,4 @@ What does it do?
 Is this it?
 -----------------
 
-There's one final step: (npm / yarn) install :) 
+There's one final step: (npm / yarn) install :)
