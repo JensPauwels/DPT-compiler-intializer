@@ -1,5 +1,6 @@
 function GlobalViewModel() {
-  pageViewModel(this);
+  if (typeof pageViewModel === 'function')  pageViewModel(this);
+
 };
 
 $(() => {
