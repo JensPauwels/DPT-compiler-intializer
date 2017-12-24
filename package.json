@@ -1,6 +1,6 @@
 {
   "name": "dpt_compiler",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "Project to setup new projects",
   "main": "./bin/compile.js",
   "directories": {
