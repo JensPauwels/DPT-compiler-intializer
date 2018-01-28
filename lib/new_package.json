@@ -4,7 +4,8 @@
   "description": "#",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "open": "open http://localhost:8080/app/",
+    "start": "npm run open && gulp"
   },
   "dependencies": {
     "babel": "^6.23.0",
@@ -28,7 +29,8 @@
     "gulp-notify": "^3.0.0",
     "gulp-remove-use-strict": "0.0.2",
     "gulp-replace": "^0.6.1",
-    "run-sequence": "^2.0.0"
+    "run-sequence": "^2.0.0",
+    "concurrently": "^3.5.1"
   },
   "author": "Jens Pauwels",
   "license": "ISC"

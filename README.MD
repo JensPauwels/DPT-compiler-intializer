@@ -5,6 +5,9 @@ This tool allows you to generate a whole new project scratch in only a couple of
 
 Install
 -----------------
+
+
+
 ```
 install: npm install -g dpt_compiler
 ```
@@ -13,7 +16,10 @@ install: npm install -g dpt_compiler
 dpt-install
 -----------------
 
-dpt-install is used to install the compiler on your computer
+> there are 2 versions (old version & new version)
+
+dpt-install is used to install the compiler on your computer (old version)
+dpt-install-new is used to install the compiler on your computer (new version)
 
 1) compilerpath
 
@@ -21,7 +27,10 @@ dpt-install is used to install the compiler on your computer
 dpt-generate
 -----------------
 
-the command dpt-generate will active a command prompt with a few radio buttons and questions.
+> there are 2 versions (old version & new version)
+
+the command dpt-generate will active a command prompt with a few radio buttons and questions. (old version)
+the command dpt-generate-new will active a command prompt with a few radio buttons and questions. (new version)
 
 1) compilerpath
 2) projectpath
@@ -39,4 +48,5 @@ What does it do?
 Is this it?
 -----------------
 
-There's one final step: (npm / yarn) install :)
+yarn/npm install -> gulp (activates liveserver)
+
