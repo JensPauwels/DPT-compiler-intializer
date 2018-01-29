@@ -34,9 +34,7 @@ the command dpt-generate-new will active a command prompt with a few radio butto
 
 1) compilerpath
 2) projectpath
-3) which scripts you want to include
-4) which css files you want to include
-5) dev or build compile type -> build minifies the javascript
+3) dev or build compile type -> build minifies the javascript
 
 
 What does it do?

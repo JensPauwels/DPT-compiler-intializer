@@ -1,9 +1,9 @@
 const Observable = function (instance, key) {
-  instance[key] = (key in instance.defaultData) ? ko.observable(instance[key]) : ko.observable(undefined);
+  instance[key] = (key in instance.defaultData) ? ko.observable(instance.defaultData[key]) : ko.observable(undefined);
 };
 
 const ObservableArray = function (instance, key) {
-  instance[key] = (key in instance.defaultData) ? ko.observableArray(instance[key]) : ko.observableArray([]);
+  instance[key] = (key in instance.defaultData) ? ko.observableArray(instance.defaultData[key]) : ko.observableArray([]);
 };
 
 function GlobalViewModel() {

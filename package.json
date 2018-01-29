@@ -1,6 +1,6 @@
 {
   "name": "dpt_compiler",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Program to setup new projects with scss to css and es6 to es5 and hotreloading",
   "main": "./bin/compile.js",
   "directories": {
